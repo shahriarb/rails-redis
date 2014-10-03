@@ -1,5 +1,5 @@
 production:
     load_balancer:
         configuration:
-            httpchk: /index.html
+            httpchk: /index1.html
             balance: LEAST_CONNECTIONS
