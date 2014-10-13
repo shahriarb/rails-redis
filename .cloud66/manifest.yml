@@ -1,5 +1,5 @@
 production:
     load_balancer:
         configuration:
-            httpchk: /index1.html
-            balance: LEAST_CONNECTIONS
+            httpchk: /
+            balance: CLIENT_IP_PROTO
