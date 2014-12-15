@@ -1,5 +1,7 @@
 production:
-    haproxy:
-        configuration:
-            httpchk: /
-            balance: leastconn
+    web:
+        servers:
+            server:
+                unique_name: frontend
+                root_disk_size: 60
+
