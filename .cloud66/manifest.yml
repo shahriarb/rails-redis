@@ -1,7 +1,7 @@
 production:
-    web:
+    redis:
         servers:
             server:
-                unique_name: frontend
+                unique_name: redisdb
                 root_disk_size: 60
 
