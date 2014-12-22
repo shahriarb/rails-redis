@@ -3,5 +3,5 @@ production:
         servers:
             server:
                 unique_name: redisdb
-                root_disk_size: 60
+                vpc_id: vpc-05d34860
 
