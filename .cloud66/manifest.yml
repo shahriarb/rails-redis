@@ -6,3 +6,4 @@ production:
         servers:
             server:
                 unique_name: redisdb
+                subnet_id: subnet-0ad37553
