@@ -1,7 +1,8 @@
 production:
+    rails:
+        configuration:
+            vpc_id: vpc-05d34860
     redis:
         servers:
             server:
                 unique_name: redisdb
-                vpc_id: vpc-05d34860
-
