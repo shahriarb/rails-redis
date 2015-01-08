@@ -1,5 +1,9 @@
 production:
     rails:
+        servers:
+            server:
+                unique_name: frontend
+                subnet_id: subnet-0ad37553 
         configuration:
             vpc_id: vpc-05d34860
     redis:
