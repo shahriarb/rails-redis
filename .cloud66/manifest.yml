@@ -5,7 +5,7 @@ production:
                 unique_name: frontend                
                 subnet_id: subnet-6b46ff0e
                 availability_zone: us-west-2c
-                 size: m3.medium
+                size: m3.medium
         configuration:
             vpc_id: vpc-64872001
             root_disk_size: 30
