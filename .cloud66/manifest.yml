@@ -6,6 +6,7 @@ production:
                 subnet_id: subnet-6b46ff0e
         configuration:
             vpc_id: vpc-64872001
+            root_disk_size: 30
     redis:
         servers:
             server:
