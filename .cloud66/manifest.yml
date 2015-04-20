@@ -1,18 +1,6 @@
 production:
-    rails:
-        servers:
-            server:
-                unique_name: frontend                
-                subnet_id: subnet-6b46ff0e
-                vendor: aws
-                region: us-west-2
-                availability_zone: us-west-2c
-                size: m3.medium
+    memcached:
         configuration:
-            vpc_id: vpc-64872001
-            root_disk_size: 30
-    redis:
-        servers:
-            server:
-                unique_name: redisdb
-                subnet_id: subnet-6b46ff0e
+            memory: 1024
+            port: 11215
+            listen_ip: 127.0.0.1
