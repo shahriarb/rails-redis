@@ -1,0 +1,6 @@
+production:
+    memcached:
+        configuration:
+            memory: 512
+            port: 11215
+            listen_ip: 127.0.0.1
