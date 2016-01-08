@@ -1,5 +1,6 @@
 production:
     gateway:
+        name: Default
         username: ec2-user
         address: 52.71.58.30
     rails:
