@@ -5,6 +5,7 @@ production:
                 unique_name: frontend                
                 subnet_id: subnet-6b46ff0e
                 vendor: aws
+                key_name: Default
                 region: us-west-2
                 availability_zone: us-west-2c
                 size: m3.medium
