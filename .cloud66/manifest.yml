@@ -12,4 +12,9 @@ production:
         configuration:
             vpc_id: vpc-64872001
             root_disk_size: 30
+    redis:
+        servers:
+            server:
+                unique_name: ip-172-31-18-243-6ef67a
+                address: 34.224.32.24
 
