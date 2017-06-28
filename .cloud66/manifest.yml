@@ -17,6 +17,15 @@ staging:
 production:
     rails:
         server:
+          unique_name: panter
+          size: t2.large
+          region: us-east-2
+          vendor: aws
+          key_name: Default
+        configuration:
+            vpc_id: default
+    mysql:
+        server:
           unique_name: lion
           address: 34.224.32.24
           extra_packages:
@@ -24,7 +33,6 @@ production:
                 - chrony
         configuration:
             ruby_version: 2.1.5
-    mysql:
         server:
           unique_name: panter
           size: t2.large
