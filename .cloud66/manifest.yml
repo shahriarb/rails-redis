@@ -23,7 +23,6 @@ production:
                 - atop
                 - chrony
         configuration:
-            vpc_id: default
             ruby_version: 2.1.5
     mysql:
         server:
@@ -32,6 +31,8 @@ production:
           region: us-east-2
           vendor: aws
           key_name: Default
+        configuration:
+            vpc_id: default
     environment_variables:
         DATABASE_HOST: changeme
         DATABASE_USERNAME: changeme
