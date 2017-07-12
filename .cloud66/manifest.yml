@@ -1,11 +1,4 @@
 production:
     rails:
-        servers:
-            server:
-                unique_name: ip-172-31-18-243-6ef67a
-                address: 34.224.32.24
-    redis:
-        servers:
-            server:
-                unique_name: ip-172-31-22-81-dc0412
-                address: 54.146.226.48
+        configuration:
+            operating_system: Ubuntu1404
